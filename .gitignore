@@ -1,0 +1,20 @@
+# Environment variables and API keys (Crucial!)
+.env
+
+# Python virtual environments (e.g., your 'sumit' environment, venv, env)
+sumit/
+venv/
+env/
+ENV/
+
+# Python compiled bytecode and cache folders
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit local secrets (if you add secrets.toml later)
+.streamlit/secrets.toml
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
